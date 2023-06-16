@@ -6,6 +6,12 @@ public class CalculoImc {
 	private float altura;
 	private float imc;
 
+	
+	/**
+	 * Calcular imc
+	 * @param peso
+	 * @param altura
+	 */
 	public CalculoImc(float peso, float altura) {
 		super();
 		this.peso = peso;
