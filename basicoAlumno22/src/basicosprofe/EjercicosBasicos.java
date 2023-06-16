@@ -125,7 +125,7 @@ public class EjercicosBasicos {
 		
 		// LA FÓRMULA DEL IMC = PESO KG / ESTATURA AL CUADRADO METROS
 		double imc = peso / Math.pow(altura, 2);
-		System.out.println();
+	
 
 		if (imc < 16) {// SI IMC < 16 ->> su imc es DESNUTRIDO
 			System.out.printf("su imc %.2f es DESNUTRIDO ", imc);
