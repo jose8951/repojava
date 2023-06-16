@@ -5,6 +5,8 @@ import java.sql.*;
 import java.text.*;
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 /**
  * 
  * LISTA DE EJERCICIOS DE REPASO A LA PARTE DE INICIACIÓN EN JAVA:
@@ -119,7 +121,8 @@ public class EjercicosBasicos {
 		System.out.print("datem tu altura metros: ");
 		double altura = sc.nextDouble();
 		//50, 195
-
+		
+		
 		// LA FÓRMULA DEL IMC = PESO KG / ESTATURA AL CUADRADO METROS
 		double imc = peso / Math.pow(altura, 2);
 
